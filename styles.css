@@ -1,0 +1,414 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    color: #111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    background-color: #111;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #e44d26;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f5f5f5;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    margin-top: 30px;
+    transition: background 0.2s;
+}
+
+.hero .btn:hover {
+    background: #e44d26;
+}
+
+.zapatillas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.producto-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.producto-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.producto-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.producto-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.producto-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.producto-card button:hover {
+    background: #e44d26;
+}
+
+.producto2-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.producto2-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.producto2-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.producto2-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.producto2-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.producto3-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.producto3-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.producto3-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.producto3-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.producto3-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.producto4-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.producto4-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.producto4-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.producto4-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.producto4-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.producto4-card button:hover {
+    background: #e44d26;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.ropa {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.ropa-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.ropa-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.ropa-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.ropa-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.ropa-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.ropa2-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.ropa2-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.ropa2-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.ropa2-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.ropa2-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.ropa3-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.ropa3-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.ropa3-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.ropa3-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.ropa3-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.ropa4-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.ropa4-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.ropa4-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.ropa4-card .precio {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.ropa4-card button {
+    padding: 10px 25px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    margin-top: 40px;
+}
